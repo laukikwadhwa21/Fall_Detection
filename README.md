@@ -1,7 +1,7 @@
-##🤸‍♂️ Elderly Fall Detection using TinyML on Arduino
+## 🤸‍♂️ Elderly Fall Detection using TinyML on Arduino
 This project implements an end-to-end machine learning system for detecting human falls in real-time. A 1D Convolutional Neural Network (CNN) is trained on accelerometer data and deployed to an Arduino Nano 33 BLE Sense using the TensorFlow Lite for Microcontrollers framework.
 
-##✨ Features
+## ✨ Features
 Real-Time Inference: Classifies accelerometer data on-device to provide immediate fall detection.
 
 High Accuracy: The model is trained to be highly sensitive to falls, achieving 99% recall on test data.
@@ -10,7 +10,7 @@ Efficient On-Device Performance: Uses an INT8 quantized TensorFlow Lite model, m
 
 End-to-End Workflow: Covers the complete process from data preprocessing and model training to hardware deployment and real-time application.
 
-##⚙️ Workflow
+## ⚙️ Workflow
 The project is broken down into two main stages:
 
 Model Training & Conversion (Python):
@@ -25,7 +25,7 @@ The final trained model is converted to a TensorFlow Lite format and quantized t
 
 The quantized model is exported as a C header file (model_data.h).
 
-##Deployment (Arduino/C++):
+## Deployment (Arduino/C++):
 
 An Arduino sketch is written to run on the Nano 33 BLE Sense.
 
@@ -37,14 +37,14 @@ It uses a sliding window to feed data to the TFLite Micro interpreter.
 
 On detecting a fall, it triggers an alert (e.g., lights up the onboard LED and prints to the Serial Monitor).
 
-##🛠️ Technology Stack
+## 🛠️ Technology Stack
 Machine Learning: Python, TensorFlow, Keras, Scikit-learn, Pandas
 
 Embedded System: C++, Arduino Framework, TensorFlow Lite for Microcontrollers
 
 Hardware: Arduino Nano 33 BLE Sense Rev 2
 
-##📂 Repository Structure
+## 📂 Repository Structure
 .
 ├── Code/
 │   ├── Model_Training.ipynb    
