@@ -47,7 +47,7 @@ Hardware: Arduino Nano 33 BLE Sense Rev 2
 ## 📂 Repository Structure
 .
 ├── Code/
-│   ├── Model_Training.ipynb    
+│   ├── Model_Training.ipynb   
 │   └── Fall_Detection_Device.ino    
 └── README.md 
 
