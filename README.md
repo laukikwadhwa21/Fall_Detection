@@ -40,8 +40,8 @@ An Arduino sketch is written to run on the Nano 33 BLE Sense. It continuously re
 ```
 .
 ├── Code/
-│   ├── Model_Training.ipynb
 │   └── Fall_Detection_Device.ino
+│   └── Model_Training.ipynb
 └── README.md
 ```
 
